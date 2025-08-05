@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "navigation_links": {
+      "type": "component",
+      "component": "menu.navigation-links",
+      "repeatable": true
+    },
+    "cta_button": {
+      "type": "component",
+      "component": "menu.cta",
+      "repeatable": false
+    }
+  }
+}

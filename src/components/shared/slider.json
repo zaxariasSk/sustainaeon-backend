@@ -9,9 +9,20 @@
   "attributes": {
     "files": {
       "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": ["images"]
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

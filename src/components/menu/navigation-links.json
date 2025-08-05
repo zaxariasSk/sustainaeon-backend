@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_navigation_links",
+  "info": {
+    "displayName": "Navigation links",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

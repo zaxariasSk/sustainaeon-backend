@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_page_why_work_with_uses",
+  "info": {
+    "displayName": "Why Work With Us"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  },
+  "config": {}
+}

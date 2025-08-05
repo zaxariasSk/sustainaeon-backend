@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_home_page_who_we_ares",
+  "info": {
+    "displayName": "who we are"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "profile_picture": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link_label": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
