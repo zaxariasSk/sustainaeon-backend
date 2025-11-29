@@ -47,6 +47,11 @@
         "images",
         "files"
       ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": true
     }
   }
 }

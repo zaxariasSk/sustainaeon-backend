@@ -4,7 +4,16 @@ module.exports = () => ({
     },
     'strapi-v5-plugin-populate-deep': {
         config: {
-            defaultDepth: 3, // Default is 5
+            defaultDepth: 5, // Default is 5
         }
+    },
+    upload: {
+        config: {
+            breakpoints: {
+                large: 1000,
+                medium: 750,
+                small: 500,
+            },
+        },
     },
 });
